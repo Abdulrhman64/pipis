@@ -3,6 +3,9 @@ body{
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+#heading{
+        color: rgb(62, 29, 93);
+ }
 #krom{
     color:violet ;
 }
@@ -10,7 +13,7 @@ body{
     font-family: papyrus;
     color: yellow;
 }
-#km{
+#name{
     color: rgb(176, 12, 12);
 }
 #button{
@@ -25,9 +28,6 @@ ul{
     border-style: dotted;
     border-width: 5px;
     border-color: gold;
-}
-h1{
-    border-bottom: dotted;
 }
 #intro{
     border-style: solid;
@@ -82,4 +82,24 @@ h1{
 @keyframes pipis{
     from{margin-left: 100%;}
     to{margin-left: 0%;}
+}
+#logstatus{
+    color: brown;
+}
+#submit{
+    color:rgb(208, 222, 21);
+    background-color: blueviolet;
+    border-radius: 7px
+}
+#submit:hover{
+    color: blueviolet;
+    background-color: yellow;
+}
+#submit:active{
+    background-color: brown;
+    color:tomato;
+}
+#logst{
+    color: aquamarine;
+    bottom: dotted;
 }
